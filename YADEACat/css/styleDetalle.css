@@ -385,7 +385,7 @@ h1,
   position: fixed;
   top: -450px;
   box-shadow: var(--shadow-1);
- background-color: rgb(255, 0, 0);
+ background-color:rgb(255, 115, 0);
   animation: slideIn 0.5s ease-out forwards;
   height: 330px;
 
@@ -426,7 +426,7 @@ h1,
   position: fixed;
   top: -450px;
   box-shadow: var(--shadow-1);
- background-color: rgb(255, 0, 0);
+ background-color:rgb(255, 115, 0);
   animation: slideIn 0.5s ease-out forwards;
   height: 330px;
 
@@ -460,13 +460,13 @@ h1,
   font-weight: var(--fw-700);
   letter-spacing: -2px;
   margin-top: 80px;
-  margin-left: 80px;
+  margin-left: 55px;
   position: relative;
 
 }
 .logo1{
-margin-top: -140px;
-margin-left: 20px;
+margin-top: -130px;
+margin-left: 10px;
 
 position: relative;
 }
@@ -681,7 +681,7 @@ margin-right: auto;
 
   
   .food-menu-card .new1{
-    color:  rgb(255, 0, 0);
+    color: rgb(255, 115, 0);
     margin-top: 40px;
     font-size: 25px;
     font-weight: 700;
@@ -695,6 +695,13 @@ margin-right: auto;
   }
 
   .food-menu-card .newAG{
+    color:  rgb(0, 0, 0);
+    margin-top: 150px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .food-menu-card .nerks6{
     color:  rgb(0, 0, 0);
     margin-top: 150px;
     font-size: 25px;
@@ -767,6 +774,9 @@ margin-left: -10px;
   .food-menu-card .newAG{
     display: none;
   }
+  .food-menu-card .nerks6{
+    display: none;
+  }
 
   .food-menu-card .infoFZnormal{
     margin-top: 120px;
@@ -798,7 +808,15 @@ margin-left: -10px;
     margin-top: 120px;
   }
 
-  .food-menu-card .infoAG{
+  .food-menu-card .INFOl{
+    margin-top: 120px;
+  }
+
+  .food-menu-card .infOe8{
+    margin-top: 120px;
+  }
+
+  .food-menu-card .infoG5{
     margin-top: 120px;
   }
   
@@ -845,7 +863,7 @@ margin-left: -10px;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 0;
-  color:rgb(255, 0, 0);
+  color:rgb(255, 115, 0);
     
   }
   
@@ -2082,6 +2100,11 @@ font-size: 200px;
   margin-left: -500px;
   width: 600px;
 }
+
+.card-banner .imgM8{
+  margin-left: -500px;
+  width: 400px;
+}
 .food-menu-card .Modelo{
   position: relative;
   margin-left: 400px;
@@ -2269,6 +2292,39 @@ font-size: 200px;
     width: 500px;
   }
 
+  
+  .food-menu-card .INFOl{
+    position: relative;
+    text-align: center;
+    margin-top: -950px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 80px;
+    margin-left: 700px;
+    width: 500px;
+  }
+  .food-menu-card .infoG5{
+    position: relative;
+    text-align: center;
+    margin-top: -880px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 80px;
+    margin-left: 700px;
+    width: 500px;
+  }
+
+  .food-menu-card .infOe8{
+    position: relative;
+    text-align: center;
+    margin-top: -1023px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 80px;
+    margin-left: 700px;
+    width: 500px;
+  }
+
   .food-menu-card .infoxtz{
     position: relative;
     text-align: center;
@@ -2293,7 +2349,7 @@ font-size: 200px;
 
   .food-menu-card .new{
     display: block;
-    color:  rgb(255, 0, 0);
+    color:  rgb(255, 115, 0);
     margin-top: -1750px;
     font-size: 55px;
     font-weight: 700;
@@ -2302,7 +2358,7 @@ font-size: 200px;
   .food-menu-card .new7{ 
    display: block;
    position: relative;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 115, 0);
     margin-top: -1150px;
     font-size: 55px;
     font-weight: 700;
@@ -2310,7 +2366,7 @@ font-size: 200px;
 
   .food-menu-card .new3{
     display: block;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 115, 0);
     margin-top: -1450px;
     font-size: 55px;
     font-weight: 700;
@@ -2322,15 +2378,21 @@ font-size: 200px;
 
   .food-menu-card .newAG{
     display: block;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 115, 0);
     margin-top: -1050px;
     font-size: 55px;
     font-weight: 700;
   }
-
+  .food-menu-card .nerks6{
+    display: block;
+    color: rgb(255, 115, 0);
+    margin-top: -100px;
+    font-size: 55px;
+    font-weight: 700;
+  }
   .food-menu-card .newFZNormal{
     display: block;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 115, 0);
     margin-top: -1050px;
     font-size: 55px;
     font-weight: 700;
@@ -2338,7 +2400,7 @@ font-size: 200px;
 
   .food-menu-card .new2{
     display: block;
-    color:  rgb(255, 0, 0);
+    color:  rgb(255, 115, 0);
     margin-top: 150px;
     font-size: 55px;
     font-weight: 700;
@@ -2363,14 +2425,14 @@ font-size: 200px;
  }
 
 .food-menu-card .Eséf{
-color: rgb(255, 0, 0);
+color: rgb(255, 115, 0);
 margin-top: 150px;
 font-size: 50px;
 font-weight: 700;
 }
 
 .food-menu-card .Eséf1{
-  color:rgb(255, 0, 0);
+  color:rgb(255, 115, 0);
   margin-top: 150px;
   font-size: 50px;
   font-weight: 700;
@@ -2449,6 +2511,22 @@ margin-left: 590px;
     margin-top: 110px;
     margin-left: 630px;
   }
+
+  .food-menu-card .Ws-button101{
+    display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #25D366; 
+  color: white; 
+  border: none;
+  padding: 7px 50px;
+  font-size: 16px; 
+  cursor: pointer;
+    background-color: rgb(4, 207, 4);
+    margin-top: 80px;
+    margin-left: 630px;
+  }
+  
   
   .food-menu-card .Ws-button1{
     display: flex; 
@@ -2501,7 +2579,7 @@ margin-left: 590px;
     font-weight: 900;
     font-size: 30px;
     margin-bottom: 0;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 115, 0);
       
     }
 
@@ -2510,7 +2588,7 @@ margin-left: 590px;
       font-weight: 900;
       font-size: 50px;
       margin-bottom: 0;
-      color:rgb(255, 0, 0);
+      color:rgb(255, 115, 0);
       }
 
 .food-menu-card h2{
@@ -2518,7 +2596,7 @@ margin-left: 590px;
   font-weight: 900;
   font-size: 50px;
   margin-bottom: 0;
-  color:rgb(255, 0, 0);
+  color:rgb(255, 115, 0);
     
   }
   
@@ -2564,7 +2642,7 @@ margin-left: 590px;
   text-align: center;
   margin-top: -35px;
   position: relative;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 115, 0);
   font-size: 35px;
   font-weight:400 ;
   margin-left: 350px;
