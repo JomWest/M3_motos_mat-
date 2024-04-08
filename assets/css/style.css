@@ -465,6 +465,20 @@ h1,
   border-radius: 20px;
 }
 
+.food-menu-card .Ws-FACE{
+  display: flex; 
+align-items: center; 
+justify-content: center; 
+background-color: #1100ff; 
+color: white; 
+border: none;
+padding: 7px 20px;
+font-size: 16px; 
+cursor: pointer;
+  background-color: rgb(1, 69, 255);
+}
+
+
 .line {
   width: 30px;
   height: 3px;
@@ -1621,6 +1635,12 @@ margin-left: -10px;
   margin-left: -620px;
 }
 
+#REDES{
+  margin-top: -20px;
+  margin-left: -620px;
+}
+
+
 #Ubicacion{
   margin-top: 20px;
   width: 900px;
@@ -1649,6 +1669,19 @@ margin-left: -10px;
     background-color: rgb(4, 207, 4);
   }
 
+  .food-menu-card .Ws-FACE{
+    display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #1100ff; 
+  color: white; 
+  border: none;
+  padding: 7px 20px;
+  font-size: 16px; 
+  cursor: pointer;
+    background-color: rgb(1, 69, 255);
+  }
+
   .food-menu-card .ModeloX{
     margin-top: 50px;
     font-weight: 900;
@@ -1670,7 +1703,7 @@ margin-left: -10px;
 #YADEA{
   margin-left: -625px;
 }
-  
+
 
 .food-menu-card:focus-within {
   outline: 1px auto -webkit-focus-ring-color;

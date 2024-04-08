@@ -63,6 +63,8 @@ for (let i = 0; i < searchBoxElems.length; i++) {
 
 
 
+
+
 /**
  * move cycle on scroll
  */
