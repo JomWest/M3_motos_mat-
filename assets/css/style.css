@@ -464,20 +464,7 @@ h1,
   --ionicon-stroke-width: 50px;
 }
 
-.food-menu-card .Ws-Financiamento{
-  display: flex; 
-align-items: center; 
-justify-content: center; 
-background-color: #25D366; 
-color: white; 
-border: none;
-z-index: 2;
-padding: 7px 20px;
-font-size: 16px; 
-margin-top: -20px;
-cursor: pointer;
-  background-color: rgb(4, 207, 4);
-}
+
 #Ubicacion{
   border-radius: 20px;
 }
@@ -1377,7 +1364,7 @@ textarea.input-field {
   .logo1 {
     font-size: 3.5rem; 
     margin-top: 25px;
-    margin-left: -5px;
+    margin-left: 2px;
   }
   .nav-toggle-btn {
     top: -20px; /* Ajusta la posición del botón de alternar navegación */
