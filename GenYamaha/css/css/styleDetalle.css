@@ -834,6 +834,7 @@ margin-left: -10px;
   .food-menu-card .Ws-Financiamento{
     display: flex; 
   align-items: center; 
+  position: relative;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -841,12 +842,15 @@ margin-left: -10px;
   padding: 7px 20px;
   font-size: 16px; 
   margin-top: -20px;
+  z-index: 999;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
   }
 
   .food-menu-card .Ws-Descarga{
     display: flex; 
+    position: relative;
+    z-index: 999;
   align-items: center; 
   justify-content: center; 
   background-color: #25d382; 
@@ -2490,6 +2494,8 @@ margin-left: 590px;
 
   .food-menu-card .Ws-button{
     display: flex; 
+    position: relative;
+    z-index: 999;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
@@ -2505,6 +2511,8 @@ margin-left: 590px;
   
   .food-menu-card .Ws-button1{
     display: flex; 
+    position: relative;
+    z-index: 999;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
@@ -2520,6 +2528,8 @@ margin-left: 590px;
 
   .food-menu-card .Ws-button8{
     display: flex; 
+    position: relative;
+    z-index: 999;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
@@ -2536,6 +2546,8 @@ margin-left: 590px;
   .food-menu-card .Ws-button10{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 

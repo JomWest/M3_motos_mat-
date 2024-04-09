@@ -618,6 +618,8 @@ margin-right: auto;
 .food-menu-card .Ws-Financiamento{
   display: flex; 
 align-items: center; 
+position: relative;
+z-index: 999;
 justify-content: center; 
 background-color: #25D366; 
 color: white; 
@@ -632,6 +634,8 @@ cursor: pointer;
 .food-menu-card .Ws-Descarga{
   display: flex; 
 align-items: center; 
+position: relative;
+z-index: 999;
 justify-content: center; 
 background-color: #25d382; 
 color: white; 
@@ -778,6 +782,8 @@ margin-left: -10px;
   .food-menu-card .Ws-button{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -791,6 +797,8 @@ margin-left: -10px;
   .food-menu-card .Ws-buttonRKS{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -804,6 +812,8 @@ margin-left: -10px;
   .food-menu-card .Ws-button1{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -817,6 +827,8 @@ margin-left: -10px;
   .food-menu-card .Ws-button10{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -829,6 +841,8 @@ margin-left: -10px;
   .food-menu-card .Ws-button8{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -2366,6 +2380,8 @@ margin-left: 590px;
   .food-menu-card .Ws-button{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -2381,6 +2397,8 @@ margin-left: 590px;
   .food-menu-card .Ws-buttonRKS{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -2396,6 +2414,8 @@ margin-left: 590px;
   .food-menu-card .Ws-buttonKA{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -2411,6 +2431,8 @@ margin-left: 590px;
   .food-menu-card .Ws-button1{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -2425,6 +2447,8 @@ margin-left: 590px;
 
   .food-menu-card .Ws-button8{
     display: flex; 
+    position: relative;
+    z-index: 999;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
@@ -2441,6 +2465,8 @@ margin-left: 590px;
   .food-menu-card .Ws-button10{
     display: flex; 
   align-items: center; 
+  position: relative;
+  z-index: 999;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 

@@ -572,6 +572,7 @@ border: none;
 padding: 7px 20px;
 font-size: 16px; 
 margin-top: -20px;
+z-index: 999;
 cursor: pointer;
   background-color: rgb(4, 207, 4);
 }
@@ -586,6 +587,7 @@ border: none;
 padding: 7px 20px;
 font-size: 16px; 
 margin-top: 20px;
+z-index: 999;
 cursor: pointer;
   background-color: rgb(0, 0, 0);
 }
@@ -706,6 +708,16 @@ margin-right: auto;
 margin-top: 80px;
 margin-left: -10px;
   }
+
+  .food-menu-card .Huknk150{
+    margin-top: 80px;
+    margin-left: -10px;
+      }
+    
+  .food-menu-card .Ecodelux{
+    margin-top: 80px;
+    margin-left: -10px;
+      }
   .food-menu-card .info{
     margin-left: 10px;
     font-size: 15px;
@@ -731,6 +743,7 @@ margin-left: -10px;
   }
 
   .food-menu-card .Ws-button{
+    position: relative;
     display: flex; 
   align-items: center; 
   justify-content: center; 
@@ -740,17 +753,20 @@ margin-left: -10px;
   padding: 7px 20px;
   font-size: 16px; 
   cursor: pointer;
+  z-index: 999;
     background-color: rgb(4, 207, 4);
   }
 
   .food-menu-card .Ws-button1{
     display: flex; 
+    position: relative;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
   border: none;
   padding: 7px 20px;
+  z-index: 999;
   font-size: 16px; 
   cursor: pointer;
     background-color: rgb(4, 207, 4);
@@ -760,10 +776,12 @@ margin-left: -10px;
     display: flex; 
   align-items: center; 
   justify-content: center; 
+  position: relative;
   background-color: #25D366; 
   color: white; 
   border: none;
   padding: 7px 20px;
+  z-index: 999;
   font-size: 16px; 
   cursor: pointer;
     background-color: rgb(4, 207, 4);
@@ -771,11 +789,13 @@ margin-left: -10px;
   .food-menu-card .Ws-button8{
     display: flex; 
   align-items: center; 
+  position: relative;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
   border: none;
   padding: 7px 20px;
+  z-index: 999;
   font-size: 16px; 
   cursor: pointer;
     background-color: rgb(4, 207, 4);
@@ -2029,7 +2049,7 @@ font-size: 200px;
   .food-menu-card .info20{
     position: relative;
     text-align: center;
-    margin-top: -1920px;
+    margin-top: -2000px;
     font-size: 16px;
     font-weight: 400;
     margin-right: 20px;
@@ -2155,9 +2175,18 @@ font-weight: 700;
 }
 
   .food-menu-card .LogoM{
-margin-top: -650px;
+margin-top: -740px;
 margin-left: 590px;
   }
+  .food-menu-card .Huknk150{
+    margin-top: -650px;
+    margin-left: 590px;
+      }
+
+  .food-menu-card .Ecodelux{
+    margin-top: -740px;
+    margin-left: 590px;
+      }
   .food-menu-card .info{
     margin-left: 600px;
     margin-right: 20px;
@@ -2173,7 +2202,7 @@ margin-left: 590px;
     font-size: 15px;
     font-weight: 500;
     position: relative;
-    margin-top: -2000px;
+    margin-top: -2070px;
   }
 
   .food-menu-card .info6{
@@ -2205,6 +2234,7 @@ margin-left: 590px;
 
   .food-menu-card .Ws-button{
     display: flex; 
+    position: relative;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
@@ -2212,6 +2242,7 @@ margin-left: 590px;
   border: none;
   padding: 7px 50px;
   font-size: 16px; 
+  z-index: 999;
   cursor: pointer;
     background-color:  rgb(4, 207, 4);
     margin-top: 110px;
@@ -2220,6 +2251,7 @@ margin-left: 590px;
   
   .food-menu-card .Ws-button1{
     display: flex; 
+    position: relative;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
@@ -2227,6 +2259,7 @@ margin-left: 590px;
   border: none;
   padding: 7px 50px;
   font-size: 16px; 
+  z-index: 999;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
     margin-top: 200px;
@@ -2235,6 +2268,7 @@ margin-left: 590px;
 
   .food-menu-card .Ws-button8{
     display: flex; 
+    position: relative;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
@@ -2242,6 +2276,7 @@ margin-left: 590px;
   border: none;
   padding: 7px 50px;
   font-size: 16px; 
+  z-index: 999;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
     margin-top: 180px;
@@ -2250,12 +2285,14 @@ margin-left: 590px;
 
   .food-menu-card .Ws-button10{
     display: flex; 
+  position: relative;
   align-items: center; 
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
   border: none;
   padding: 7px 50px;
+  z-index: 999;
   font-size: 16px; 
   cursor: pointer;
     background-color: rgb(4, 207, 4);
