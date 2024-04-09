@@ -11,3 +11,22 @@ document.getElementById("whatsappButton").addEventListener("click", function() {
     var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
     window.open(whatsappLink, "_blank");
 });
+
+var whatsappButtons = document.querySelectorAll(".Ws-button");
+
+whatsappButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        var modelo = document.querySelector(".Modelo").textContent;
+        var precioCordobas = document.querySelector(".Precio").textContent;
+        var precioDolares = document.querySelector(".Dolar").textContent;
+        var phoneNumber = "50588282726";
+        var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
+        message += "¿Podrías proporcionarme más información sobre el precio?\n";
+        message += "Precio en córdobas: " + precioCordobas + "\n";
+        message += "Precio en dólares: " + precioDolares;
+
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+        window.open(whatsappLink, "_blank");
+    });
+});
