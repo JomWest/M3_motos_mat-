@@ -43,6 +43,7 @@ whatsappButtons.forEach(function(button) {
     button.addEventListener("click", function() {
         var phoneNumber = "50585482224";
         var message = "Hola, estoy interesado en conocer mas sobre su tienda. ";
+        message += "¿Podrías proporcionarme más información?\n";
 
         var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
 

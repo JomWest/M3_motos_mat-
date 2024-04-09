@@ -388,7 +388,7 @@ h1,
 .logo1{
   position: relative;
   margin-top: 6px;
-  margin-left: 20px;
+  margin-left: 56px;
 }
 
 .header.active{
@@ -410,18 +410,7 @@ h1,
 .logo{
   visibility: hidden;
 }
-  .nav-toggle-btn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    padding: 10px;
-    position: absolute;
-    display: grid;
-    gap: 6px;
-    top: 150px;
-    right: 10px;
-  }
+
 }
 
 
@@ -475,19 +464,20 @@ h1,
   --ionicon-stroke-width: 50px;
 }
 
-.nav-toggle-btn {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 10px;
-  position: absolute;
-  display: grid;
-  gap: 6px;
-  top: 80px;
-  right: 10px;
+.food-menu-card .Ws-Financiamento{
+  display: flex; 
+align-items: center; 
+justify-content: center; 
+background-color: #25D366; 
+color: white; 
+border: none;
+z-index: 2;
+padding: 7px 20px;
+font-size: 16px; 
+margin-top: -20px;
+cursor: pointer;
+  background-color: rgb(4, 207, 4);
 }
-
 #Ubicacion{
   border-radius: 20px;
 }
@@ -506,75 +496,9 @@ cursor: pointer;
 }
 
 
-.line {
-  width: 30px;
-  height: 3px;
-  background-color: var(--btn-color);
-  border-radius: 5px;
-  transition: var(--transition-1);
-}
 
-.line.middle {
-  width: 30px;
-}
 
-.line.bottom {
-  margin-left: auto;
-}
 
-.nav-toggle-btn.active .line.top {
-  transform: translate(1px, 3px) rotate(45deg);
-}
-
-.nav-toggle-btn.active .line.middle {
-  transform: rotate(-45deg);
-}
-
-.nav-toggle-btn.active .line.bottom {
-  transform: translate(-1px, -3px) rotate(45deg);
-}
-
-.navbar {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 30px);
-  background-color: var(--white);
-  padding-inline: 20px;
-  box-shadow: var(--shadow-1);
-  height: 0;
-  overflow: hidden;
-  visibility: visible;
-  transition: var(--transition-1);
-}
-
-.navbar.active {
-  height: 110px;
-  visibility: visible;
-}
-
-.navbar-list {
-  margin-block: 20px;
-  margin-left: -150px;
-}
-
-.nav-item:not(:last-child) {
-  border-block-end: 1px solid hsla(0, 100%, 50%, 0.04);
-}
-
-.navbar-link {
-  color: var(--rich-black-fogra-29);
-  font-size: var(--fs-4);
-  font-family: var(--ff-rubik);
-  font-weight: var(--fw-500);
-  padding: 15px 15px;
-  transition: var(--transition-1);
-}
-
-.navbar-link:is(:hover, :focus) {
-  color: var(--dark-orange);
-}
 
 
 
@@ -1448,12 +1372,12 @@ textarea.input-field {
   .logo {
     font-size: 3.5rem; 
     margin-top: -35px;
-    margin-left: -400px;
+    margin-left: -1800px;
   }
   .logo1 {
     font-size: 3.5rem; 
     margin-top: 25px;
-    margin-left: -305px;
+    margin-left: -5px;
   }
   .nav-toggle-btn {
     top: -20px; /* Ajusta la posición del botón de alternar navegación */
