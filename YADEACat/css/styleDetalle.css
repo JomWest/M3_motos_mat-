@@ -681,9 +681,9 @@ cursor: pointer;
   display: grid;
   gap: 30px;
 }
-
 .food-menu-card .MinfoAG{
   width: 350px;
+  height: 600px;
 }
 
 .food-menu-card {
@@ -2157,6 +2157,11 @@ font-size: 200px;
 }
 
 .card-banner .imgM8{
+  margin-left: -500px;
+  width: 400px;
+}
+
+.card-banner .imgMd{
   margin-left: -500px;
   width: 400px;
 }
