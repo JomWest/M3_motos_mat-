@@ -27,6 +27,20 @@ whatsappButtons.forEach(function(button) {
     });
 });
 
+var whatsappButtons = document.querySelectorAll(".Ws-buttonEspeciasl");
+
+whatsappButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        var phoneNumber = "50585482224";
+        var message = "Hola, estoy interesado en conocer mas sobre su tienda. ";
+
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+        window.open(whatsappLink, "_blank");
+    });
+});
+
+
 var whatsappButtons = document.querySelectorAll(".Ws-button");
 
 whatsappButtons.forEach(function(button) {
@@ -41,7 +55,7 @@ whatsappButtons.forEach(function(button) {
         window.open(whatsappLink, "_blank");
     });
 });
-var whatsappButtons = document.querySelectorAll(".Ws-button1, .Ws-button10, Ws-button8, .Ws-buttonKA");
+var whatsappButtons = document.querySelectorAll(".Ws-button1, .Ws-button10, Ws-button8, .Ws-buttonKA, .Ws-buttonRKS");
 
 whatsappButtons.forEach(function(button) {
     button.addEventListener("click", function() {
@@ -55,3 +69,42 @@ whatsappButtons.forEach(function(button) {
         window.open(whatsappLink, "_blank");
     });
 });
+
+
+let lastScrollTop = 0;
+const navbar = document.querySelector("[data-navbar]");
+const menuToggleBtn = document.querySelector("[data-menu-toggle-btn]");
+const navbarHeight = navbar.offsetHeight;
+const screenHeight = window.innerHeight;
+
+window.addEventListener("scroll", function() {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop && currentScroll > screenHeight / 2) {
+        // Scrolling down
+        navbar.style.top = `-${navbarHeight}px`;
+    } else {
+        // Scrolling up
+        navbar.style.top = "0";
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+});
+
+menuToggleBtn.addEventListener("click", function () {
+    navbar.classList.toggle("active");
+    this.classList.toggle("active");
+    if (!navbar.classList.contains("active")) {
+        navbar.style.top = "0";
+    }
+});
+
+const navbarLinks = document.querySelectorAll("[data-nav-link]");
+for (let i = 0; i < navbarLinks.length; i++) {
+    navbarLinks[i].addEventListener("click", function () {
+        navbar.classList.remove("active");
+        menuToggleBtn.classList.remove("active");
+        navbar.style.top = "0";
+    });
+}
+

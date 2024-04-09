@@ -361,11 +361,13 @@ h1,
 
 .header {
 
-  --btn-color: var(--dark-orange);
+  --btn-color: var(--white);
   position: absolute;
   top: 0;
   left: 0;
+  margin-top: -130px;
   width: 100%;
+  height: 350px;
   padding-block: 20px;
   background-color: blue;
   border-block-end: 1px solid var(--champagne-pink_20);
@@ -373,20 +375,38 @@ h1,
  position: absolute;
 }
 
-.header {
-  --btn-color: var(--white);
-
+.header.active {
   position: fixed;
-  top: -450px;
+  margin-top: -345px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 210px;
+  padding-block: 20px;
   box-shadow: var(--shadow-1);
- background-color: rgb(19, 19, 189);
+  background-color: blue;
   animation: slideIn 0.5s ease-out forwards;
-  height: 320px;
+  border-radius: 10%;
 
-  .logo .span {
-    visibility: visible;
-    font-family: "LuckiestSoftieProExtraBold-Regular";
-    letter-spacing: 2px;
+  .logo1 {
+    visibility: hidden;
+  }
+
+  .logo {
+    visibility: hidden;
+  }
+
+  .nav-toggle-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    position: absolute;
+    display: grid;
+    gap: 6px;
+    top: 150px;
+    right: 10px;
   }
 }
 
