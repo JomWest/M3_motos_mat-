@@ -17,7 +17,7 @@ var whatsappButtons = document.querySelectorAll(".Ws-button");
 whatsappButtons.forEach(function(button) {
     button.addEventListener("click", function() {
         var modelo = document.querySelector(".Modelo").textContent;
-        var phoneNumber = "50588282726";
+        var phoneNumber = "50585482224";
         var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
         message += "¿Podrías proporcionarme más información sobre el precio?\n";
 
@@ -32,7 +32,7 @@ var whatsappButtons = document.querySelectorAll(".Ws-button");
 whatsappButtons.forEach(function(button) {
     button.addEventListener("click", function() {
         var modelo = document.querySelector(".Modelo1").textContent;
-        var phoneNumber = "50588282726";
+        var phoneNumber = "50585482224";
         var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
         message += "¿Podrías proporcionarme más información sobre el precio?\n";
 
@@ -41,12 +41,12 @@ whatsappButtons.forEach(function(button) {
         window.open(whatsappLink, "_blank");
     });
 });
-var whatsappButtons = document.querySelectorAll(".Ws-button1, .Ws-button10, Ws-button8");
+var whatsappButtons = document.querySelectorAll(".Ws-button1, .Ws-button10, Ws-button8, .Ws-buttonKA");
 
 whatsappButtons.forEach(function(button) {
     button.addEventListener("click", function() {
         var modelo = document.querySelector(".Modelo").textContent;
-        var phoneNumber = "50588282726";
+        var phoneNumber = "50585482224";
         var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
         message += "¿Podrías proporcionarme más información sobre el precio?\n";
 
