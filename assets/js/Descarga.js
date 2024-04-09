@@ -5,3 +5,9 @@ document.getElementById("descargarPdf").addEventListener("click", function() {
     link.download = "requisitos_fidem.pdf";
     link.click();
 });
+document.getElementById("whatsappButton").addEventListener("click", function() {
+    var phoneNumber = "50588282726";
+    var message = "¡Hola! Estoy interesado en información financiera. ¿Puedes ayudarme?";
+    var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+    window.open(whatsappLink, "_blank");
+});
