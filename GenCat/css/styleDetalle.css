@@ -614,6 +614,59 @@ margin-right: auto;
 
 
 }
+
+.food-menu-card .Ws-Financiamento{
+  display: flex; 
+align-items: center; 
+justify-content: center; 
+background-color: #25D366; 
+color: white; 
+border: none;
+padding: 7px 20px;
+font-size: 16px; 
+margin-top: -20px;
+cursor: pointer;
+  background-color: rgb(4, 207, 4);
+}
+
+.food-menu-card .Ws-Descarga{
+  display: flex; 
+align-items: center; 
+justify-content: center; 
+background-color: #25d382; 
+color: white; 
+border: none;
+padding: 7px 20px;
+font-size: 16px; 
+margin-top: 20px;
+cursor: pointer;
+  background-color: rgb(19, 19, 189);
+}
+#Pregu{
+  margin-top: 95px;
+  color: black;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -1px;
+
+}
+#Note{
+  margin-top: -15px;
+  color: black;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -1px;
+
+}
+
+
+#Financiamiento{
+  color:rgb(19, 19, 189);
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: -45px;
+}
+
 .food-menu-card .hero-btn{
   background-color: rgb(0, 0, 0);
   }
