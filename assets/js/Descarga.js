@@ -66,6 +66,21 @@ whatsappButtons.forEach(function(button) {
         window.open(whatsappLink, "_blank");
     });
 });
+
+var whatsappButtons = document.querySelectorAll(".Ws-buttonEspeciasl");
+
+whatsappButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        var phoneNumber = "50585482224";
+        var message = "Hola, estoy interesado en sus motos ";
+        message += "¿Podrías proporcionarme más información?\n";
+
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+        window.open(whatsappLink, "_blank");
+    });
+});
+
 var whatsappButtons = document.querySelectorAll(".Ws-button1, .Ws-button10, Ws-button8, .Ws-buttonKA, .Ws-buttonRKS");
 
 whatsappButtons.forEach(function(button) {
