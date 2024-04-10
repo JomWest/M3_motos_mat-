@@ -392,6 +392,9 @@ h1,
     top: 150px;
     right: 10px;
   }
+  .navbar-list{
+    visibility: hidden;
+  }
 }
 
 
@@ -701,9 +704,7 @@ h1,
 }
 
 
-.food-menu-card:focus-within {
-  outline: 1px auto -webkit-focus-ring-color;
-}
+
 
 .food-menu-card .card-banner {
   position: relative;
@@ -1659,13 +1660,13 @@ textarea.input-field {
   
     .logo {
       font-size: 3.5rem; 
-      margin-top: 72%;
-      margin-left: -80%;
+      margin-top: 55%;
+      margin-left: -40%;
     }
     .logo1 {
       font-size: 3.5rem; 
-      margin-top: -80%;
-      margin-left: -38px;
+      margin-top: -60%;
+      margin-left: 40px;
       width: 300px;
     }
     .nav-toggle-btn {
@@ -1677,7 +1678,7 @@ textarea.input-field {
       height: auto; 
       box-shadow: none; 
       background-color: transparent; 
-      margin-left: 800px;
+      margin-left: 600px;
     }
   
     .navbar-list {
@@ -1691,6 +1692,11 @@ textarea.input-field {
       font-size: 1.6rem; 
       margin-top: 10px;
     }
+
+    .nav-toggle-btn {
+      top: 20px; 
+    }
+  
 
     .food-menu-card .imgsx {
       margin-left: 20px;
@@ -1955,9 +1961,7 @@ textarea.input-field {
     }
 
 
-    .food-menu-card:focus-within {
-      outline: 1px auto -webkit-focus-ring-color;
-    }
+
 
     .food-menu-card .card-banner {
       position: relative;

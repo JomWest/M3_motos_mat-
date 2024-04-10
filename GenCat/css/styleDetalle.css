@@ -869,9 +869,7 @@ margin-left: -10px;
   }
   
 
-.food-menu-card:focus-within {
-  outline: 1px auto -webkit-focus-ring-color;
-}
+
 
 .food-menu-card .card-banner {
   position: relative;
@@ -1946,13 +1944,13 @@ textarea.input-field {
 
   .logo {
     font-size: 3.5rem; 
-    margin-top: 75%;
-    margin-left: -87%;
+    margin-top: 55%;
+    margin-left: -40%;
   }
   .logo1 {
     font-size: 3.5rem; 
-    margin-top: -95%;
-    margin-left: -50px;
+    margin-top: -70%;
+    margin-left: 40px;
     width: 300px;
   }
   .nav-toggle-btn {
@@ -1964,7 +1962,7 @@ textarea.input-field {
     height: auto; 
     box-shadow: none; 
     background-color: transparent; 
-    margin-left: 800px;
+    margin-left: 600px;
   }
 
   .navbar-list {
@@ -2521,9 +2519,7 @@ margin-left: 590px;
   }
   
 
-.food-menu-card:focus-within {
-  outline: 1px auto -webkit-focus-ring-color;
-}
+
 
 .food-menu-card .card-banner {
   position: relative;

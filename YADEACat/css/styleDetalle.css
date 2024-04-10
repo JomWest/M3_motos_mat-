@@ -932,9 +932,7 @@ margin-left: -10px;
     display: none;
   }
 
-.food-menu-card:focus-within {
-  outline: 1px auto -webkit-focus-ring-color;
-}
+
 
 .food-menu-card .card-banner {
   position: relative;
@@ -2675,9 +2673,7 @@ margin-left: 590px;
     display: none;
     }
 
-.food-menu-card:focus-within {
-  outline: 1px auto -webkit-focus-ring-color;
-}
+
 
 .food-menu-card .card-banner {
   position: relative;
