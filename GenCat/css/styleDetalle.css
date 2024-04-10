@@ -408,6 +408,47 @@ h1,
   align-items: center;
 }
 
+#Pregu{
+  margin-top: 95px;
+  color: rgb(255, 17, 17);
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -1px;
+
+}
+#Note{
+  margin-top: -15px;
+  color: rgb(255, 17, 17);
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -1px;
+
+}
+
+
+#Financiamiento{
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: -45px;
+}
+
+.food-menu-card .Ws-Financiamento{
+  display: flex; 
+align-items: center; 
+justify-content: center; 
+background-color: #25D366; 
+color: white; 
+border: none;
+padding: 7px 20px;
+font-size: 16px; 
+margin-top: -20px;
+z-index: 999;
+cursor: pointer;
+  background-color: rgb(4, 207, 4);
+}
+
+
 .logo {
   color: var(--white);
   font-family: var(--ff-rubik);
@@ -474,6 +515,10 @@ position: relative;
   display: none;
 }
 .food-menu-card .new1{
+  display: none;
+}
+
+.food-menu-card .newC3{
   display: none;
 }
 .line.middle {
@@ -2125,7 +2170,33 @@ font-size: 200px;
     font-size: 55px;
     font-weight: 700;
   }
+  .food-menu-card .newC3{
+    display: block;
+    color:  rgb(0, 97, 243);
+    margin-top: -2050px;
+    font-size: 55px;
+    font-weight: 700;
+  }
 
+
+  .food-menu-card .Ws-Descarga{
+    display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #25d382; 
+  color: white; 
+  border: none;
+  padding: 7px 20px;
+  font-size: 16px; 
+  margin-top: 20px;
+  z-index: 999;
+  cursor: pointer;
+    background-color: rgb(0, 0, 0);
+  }
+  
+#c3{
+  margin-top: 10px;
+}
   .food-menu-card .new7{ 
    display: block;
    position: relative;
