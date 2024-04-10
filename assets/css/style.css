@@ -1358,13 +1358,13 @@ textarea.input-field {
 
   .logo {
     font-size: 3.5rem; 
-    margin-top: -35px;
+    margin-top: 37%;
     margin-left: -1800px;
   }
   .logo1 {
     font-size: 3.5rem; 
-    margin-top: 25px;
-    margin-left: 2px;
+    margin-top: 7%;
+    margin-left: 10%;
   }
   .nav-toggle-btn {
     top: -20px; /* Ajusta la posición del botón de alternar navegación */
