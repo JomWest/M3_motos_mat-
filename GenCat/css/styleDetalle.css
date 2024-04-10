@@ -791,6 +791,7 @@ margin-left: -10px;
   border: none;
   padding: 7px 20px;
   font-size: 16px; 
+  z-index: 2;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
   }
@@ -804,6 +805,7 @@ margin-left: -10px;
   border: none;
   padding: 7px 20px;
   font-size: 16px; 
+  z-index: 2;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
   }
@@ -830,6 +832,7 @@ margin-left: -10px;
   border: none;
   padding: 7px 20px;
   font-size: 16px; 
+  z-index: 2;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
   }
@@ -841,6 +844,7 @@ margin-left: -10px;
   color: white; 
   border: none;
   padding: 7px 20px;
+  z-index: 2;
   font-size: 16px; 
   cursor: pointer;
     background-color: rgb(4, 207, 4);
