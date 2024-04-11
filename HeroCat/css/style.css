@@ -149,7 +149,7 @@ body {
   html,
   body {
     padding: 0%;
-    margin: auto;
+    margin: 0%;
     display: block;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -577,7 +577,9 @@ position: relative;
   margin-inline: auto;
   margin-block-end: 30px;
 }
-
+.card-banner-titulo .titlehero{
+  margin: -100px;
+}
 .fiter-list {
   display: flex;
   flex-wrap: wrap;
