@@ -36,7 +36,63 @@ whatsappButtons.forEach(function(button) {
         window.open(whatsappLink, "_blank");
     });
 });
+var whatsappButtons = document.querySelectorAll(".Ws-button1");
 
+whatsappButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        var modelo = document.querySelector(".ModeloGriz").textContent;
+        var phoneNumber = "50585482224";
+        var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
+        message += "¿Podrías proporcionarme más información sobre el precio?\n";
+
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+        window.open(whatsappLink, "_blank");
+    });
+});
+var whatsappButtons = document.querySelectorAll(".Ws-button10");
+
+whatsappButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        var modelo = document.querySelector(".Modelo5").textContent;
+        var phoneNumber = "50585482224";
+        var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
+        message += "¿Podrías proporcionarme más información sobre el precio?\n";
+
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+        window.open(whatsappLink, "_blank");
+    });
+});
+var whatsappButtons = document.querySelectorAll(".Ws-button1");
+
+whatsappButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        var modelo = document.querySelector(".Modelo5").textContent;
+        var phoneNumber = "50585482224";
+        var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
+        message += "¿Podrías proporcionarme más información sobre el precio?\n";
+
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+        window.open(whatsappLink, "_blank");
+    });
+});
+
+var whatsappButtons = document.querySelectorAll(".Ws-button8");
+
+whatsappButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+        var modelo = document.querySelector(".Modelo").textContent;
+        var phoneNumber = "50585482224";
+        var message = "Hola, estoy interesado en el modelo " + modelo + ". ";
+        message += "¿Podrías proporcionarme más información sobre el precio?\n";
+
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+        window.open(whatsappLink, "_blank");
+    });
+});
 var whatsappButtons = document.querySelectorAll(".Ws-buttonEspeciasl");
 
 whatsappButtons.forEach(function(button) {
@@ -81,7 +137,9 @@ whatsappButtons.forEach(function(button) {
     });
 });
 
-var whatsappButtons = document.querySelectorAll(".Ws-button1, .Ws-button10, Ws-button8, .Ws-buttonKA, .Ws-buttonRKS");
+
+
+var whatsappButtons = document.querySelectorAll(".Ws-button1, .Ws-button10, Ws-button8, .Ws-buttonKA, .Ws-buttonRKS, Ws-button1, Ws-button8");
 
 whatsappButtons.forEach(function(button) {
     button.addEventListener("click", function() {

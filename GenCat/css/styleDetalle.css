@@ -680,22 +680,8 @@ h1,
   margin-right: auto;
 }
 
-.food-menu-card .Ws-buttonKA {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #25D366;
-  color: white;
-  border: none;
-  padding: 7px 50px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: rgb(4, 207, 4);
-  margin-top: 140px;
-  margin-left: 630px;
-  z-index: 2;
-  position: relative;
-}
+
+
 
 .food-menu-card .hero-btn {
   background-color: rgb(0, 0, 0);
@@ -823,6 +809,23 @@ h1,
   cursor: pointer;
   background-color: rgb(4, 207, 4);
 }
+
+.food-menu-card .Ws-buttonKA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  font-size: 16px;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+  background-color: rgb(4, 207, 4);
+}
+
+
 
 .food-menu-card .Ws-buttonRKS {
   display: flex;
