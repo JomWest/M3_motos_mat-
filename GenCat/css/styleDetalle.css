@@ -821,6 +821,7 @@ margin-left: -10px;
   font-size: 16px; 
   cursor: pointer;
     background-color: rgb(4, 207, 4);
+    z-index: 2;
   }
 
   .food-menu-card .Ws-button10{
@@ -2414,6 +2415,7 @@ margin-left: 590px;
     background-color:  rgb(4, 207, 4);
     margin-top: 110px;
     margin-left: 630px;
+    z-index: 2;
   }
 
   .food-menu-card .Ws-buttonRKS{
@@ -2429,6 +2431,7 @@ margin-left: 590px;
     background-color:  rgb(4, 207, 4);
     margin-top: 160px;
     margin-left: 630px;
+    z-index: 2;
   }
   
   .food-menu-card .Ws-buttonKA{
@@ -2444,6 +2447,7 @@ margin-left: 590px;
     background-color:  rgb(4, 207, 4);
     margin-top: 140px;
     margin-left: 630px;
+    z-index: 2;
   }
 
   .food-menu-card .Ws-button1{
@@ -2459,6 +2463,7 @@ margin-left: 590px;
     background-color: rgb(4, 207, 4);
     margin-top: 200px;
     margin-left: 630px;
+    z-index: 2;
   }
 
   .food-menu-card .Ws-button8{
@@ -2474,6 +2479,7 @@ margin-left: 590px;
     background-color: rgb(4, 207, 4);
     margin-top: 180px;
     margin-left: 630px;
+    z-index: 2;
   }
 
   .food-menu-card .Ws-button10{
@@ -2489,6 +2495,7 @@ margin-left: 590px;
     background-color: rgb(4, 207, 4);
     margin-top: 300px;
     margin-left: 630px;
+    z-index: 2;
   }
 
 
