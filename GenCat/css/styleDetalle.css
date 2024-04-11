@@ -57,9 +57,10 @@
   --clip-path-2: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
 
 }
-.food-menu-card .MinfPC{   
+
+.food-menu-card .MinfPC {
   display: none;
-  }
+}
 
 
 
@@ -372,7 +373,7 @@ h1,
   background-color: blue;
   border-block-end: 1px solid var(--champagne-pink_20);
   z-index: 4;
- position: absolute;
+  position: absolute;
 }
 
 .header {
@@ -381,7 +382,7 @@ h1,
   position: fixed;
   top: -450px;
   box-shadow: var(--shadow-1);
- background-color: rgb(19, 19, 189);
+  background-color: rgb(19, 19, 189);
   animation: slideIn 0.5s ease-out forwards;
   height: 320px;
 
@@ -408,7 +409,7 @@ h1,
   align-items: center;
 }
 
-#Pregu{
+#Pregu {
   margin-top: 95px;
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -416,7 +417,8 @@ h1,
   letter-spacing: -1px;
 
 }
-#Note{
+
+#Note {
   margin-top: -15px;
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -426,40 +428,41 @@ h1,
 }
 
 
-#Financiamiento{
+#Financiamiento {
   color: rgb(17, 17, 180);
   font-size: 35px;
   font-weight: 800;
   margin-top: -45px;
 }
 
-.food-menu-card .Ws-Financiamento{
-  display: flex; 
-align-items: center; 
-justify-content: center; 
-background-color: #25D366; 
-color: white; 
-border: none;
-padding: 7px 20px;
-font-size: 16px; 
-margin-top: -20px;
-z-index: 999;
-cursor: pointer;
+.food-menu-card .Ws-Financiamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  font-size: 16px;
+  margin-top: -20px;
+  z-index: 999;
+  cursor: pointer;
   background-color: rgb(4, 207, 4);
 }
-.food-menu-card .Ws-Descarga{
-  display: flex; 
+
+.food-menu-card .Ws-Descarga {
+  display: flex;
   position: relative;
   z-index: 2;
-align-items: center; 
-justify-content: center; 
-background-color: #25d382; 
-color: white; 
-border: none;
-padding: 7px 20px;
-font-size: 16px; 
-margin-top: 20px;
-cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d382;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
   background-color: rgb(17, 17, 180);
 }
 
@@ -475,11 +478,12 @@ cursor: pointer;
   position: relative;
 
 }
-.logo1{
-margin-top: -140px;
-margin-left: 20px;
 
-position: relative;
+.logo1 {
+  margin-top: -140px;
+  margin-left: 20px;
+
+  position: relative;
 }
 
 .logo .span {
@@ -526,16 +530,19 @@ position: relative;
   border-radius: 5px;
   transition: var(--transition-1);
 }
-.food-menu-card .new{
-  display: none;
-}
-.food-menu-card .new1{
+
+.food-menu-card .new {
   display: none;
 }
 
-.food-menu-card .newC3{
+.food-menu-card .new1 {
   display: none;
 }
+
+.food-menu-card .newC3 {
+  display: none;
+}
+
 .line.middle {
   width: 30px;
 }
@@ -657,223 +664,247 @@ position: relative;
   text-align: center;
   width: 100%;
   position: relative;
-  
+
 }
 
-.food-menu-card .new7{
+.food-menu-card .new7 {
   display: none;
 }
 
-.food-menu-card .IMGS2{
-text-align: center;
-margin-left: 100px;
-position: relative;
-display: block;
-margin-left: auto;
-margin-right: auto;
-
-
+.food-menu-card .IMGS2 {
+  text-align: center;
+  margin-left: 100px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.food-menu-card .hero-btn{
+
+.food-menu-card .Ws-buttonKA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 7px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(4, 207, 4);
+  margin-top: 140px;
+  margin-left: 630px;
+  z-index: 2;
+  position: relative;
+}
+
+.food-menu-card .hero-btn {
   background-color: rgb(0, 0, 0);
-  }
-  .food-menu-card .who{
-    color: rgb(17, 17, 180);
-    font-weight: 700;
-    font-size: 35px;
-  }
-  .food-menu-card .info{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 20px;
-  }
-
-  .food-menu-card .inf2{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 20px;
-  }
-
-
-  
-  .food-menu-card .new1{
-    color:  rgb(17, 17, 180);
-    margin-top: 40px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-
-  .food-menu-card .new{
-    color:  rgb(17, 17, 180);
-    margin-top: 40px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  .food-menu-card .LogoM{
-margin-top: 80px;
-margin-left: -10px;
-  }
-  .food-menu-card .info{
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 400;
-    position: relative;
-    margin-top: -210px;
-  }
-
-  .food-menu-card .infoPC{
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 400;
-    position: relative;
-    margin-top: -210px;
-  }
-
-
-
-.food-menu-card .infoSX{
-  margin-top: 50px; 
 }
 
-.food-menu-card .infoSX3{
-  margin-top: 50px; 
+.food-menu-card .who {
+  color: rgb(17, 17, 180);
+  font-weight: 700;
+  font-size: 35px;
 }
 
-.food-menu-card .infoSX1{
-  margin-top: 50px; 
+.food-menu-card .info {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
 }
 
-.food-menu-card .infoRKS{
-  margin-top: 50px; 
-}
-
-.food-menu-card .info{
-  margin-top: 50px; 
-}
-
-.food-menu-card .infoRK{
-  margin-top: 50px; 
-}
-
-.food-menu-card .infoklik{
-  margin-top: 50px; 
-}
-
-.food-menu-card .infoCR4{
-  margin-top: 50px; 
+.food-menu-card .inf2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
 }
 
 
-.food-menu-card .infoGE150{
-  margin-top: 50px; 
+
+.food-menu-card .new1 {
+  color: rgb(17, 17, 180);
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
-.food-menu-card .infoDM125{
-  margin-top: 50px; 
+.food-menu-card .new {
+  color: rgb(17, 17, 180);
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
-  .food-menu-card .infoPC1{
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: 400;
-    position: relative;
-    margin-top: -210px;
-  }
+.food-menu-card .LogoM {
+  margin-top: 80px;
+  margin-left: -10px;
+}
 
-  .food-menu-card .Ws-button{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
+.food-menu-card .info {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  margin-top: -210px;
+}
+
+.food-menu-card .infoPC {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  margin-top: -210px;
+}
+
+
+
+.food-menu-card .infoSX {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoSX3 {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoSX1 {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoRKS {
+  margin-top: 50px;
+}
+
+.food-menu-card .info {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoRK {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoklik {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoCR4 {
+  margin-top: 50px;
+}
+
+
+.food-menu-card .infoGE150 {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoDM125 {
+  margin-top: 50px;
+}
+
+.food-menu-card .infoPC1 {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  margin-top: -210px;
+}
+
+.food-menu-card .Ws-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
   border: none;
   padding: 7px 20px;
-  font-size: 16px; 
+  font-size: 16px;
   z-index: 2;
   position: relative;
   cursor: pointer;
-    background-color: rgb(4, 207, 4);
-  }
+  background-color: rgb(4, 207, 4);
+}
 
-  .food-menu-card .Ws-buttonRKS{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
+.food-menu-card .Ws-buttonRKS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
   border: none;
   padding: 7px 20px;
-  font-size: 16px; 
+  font-size: 16px;
   z-index: 2;
   position: relative;
   cursor: pointer;
-    background-color: rgb(4, 207, 4);
-  }
+  background-color: rgb(4, 207, 4);
+}
 
-  .food-menu-card .Ws-button1{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
+.food-menu-card .Ws-button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
   border: none;
   padding: 7px 20px;
-  font-size: 16px; 
+  font-size: 16px;
   cursor: pointer;
-    background-color: rgb(4, 207, 4);
-    z-index: 2;
-    position: relative;
-  }
+  background-color: rgb(4, 207, 4);
+  z-index: 2;
+  position: relative;
+}
 
-  .food-menu-card .Ws-button10{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
+.food-menu-card .Ws-button10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
   border: none;
   padding: 7px 20px;
-  font-size: 16px; 
+  font-size: 16px;
   z-index: 2;
   position: relative;
   cursor: pointer;
-    background-color: rgb(4, 207, 4);
-  }
-  .food-menu-card .Ws-button8{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
+  background-color: rgb(4, 207, 4);
+}
+
+.food-menu-card .Ws-button8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
   border: none;
   padding: 7px 20px;
   z-index: 2;
   position: relative;
-  font-size: 16px; 
+  font-size: 16px;
   cursor: pointer;
-    background-color: rgb(4, 207, 4);
-  }
+  background-color: rgb(4, 207, 4);
+}
 
-.food-menu-card .pymaha{
+.food-menu-card .pymaha {
   margin-top: -110px;
-  }
-  .food-menu-card .phero{
-    margin-top: -160px;
-    }
-  .food-menu-card .img-hero{
-    margin-top: -75px;
-    }
-.food-menu-card h2{
+}
+
+.food-menu-card .phero {
+  margin-top: -160px;
+}
+
+.food-menu-card .img-hero {
+  margin-top: -75px;
+}
+
+.food-menu-card h2 {
   margin-top: 200px;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 0;
   color: rgb(17, 17, 180);
-    
-  }
-  
+
+}
+
 
 
 
@@ -885,63 +916,71 @@ margin-left: -10px;
   margin-inline: auto;
   margin-top: -135px;
 }
-.food-menu-card .Modelo{
+
+.food-menu-card .Modelo {
   margin-top: -35px;
   font-weight: 900;
   font-size: 45px;
 
 }
 
-.food-menu-card .Modelo1{ 
+.food-menu-card .Modelo1 {
   margin-top: -35px;
   font-weight: 900;
   font-size: 45px;
 
 }
 
-.food-menu-card .Modelo5{
+.food-menu-card .Modelo5 {
   margin-top: -35px;
   font-weight: 900;
   font-size: 45px;
 
 }
-.food-menu-card .Desde{
+
+.food-menu-card .Desde {
   margin-top: -10px;
   position: relative;
   color: rgb(0, 0, 0);
   font-size: 20px;
-  font-weight:800 ;
+  font-weight: 800;
 }
-.food-menu-card .cDesde{
+
+.food-menu-card .cDesde {
   margin-top: -4px;
   position: relative;
   color: rgb(0, 0, 0);
   font-size: 17px;
-  font-weight:800 ;
+  font-weight: 800;
 }
-.food-menu-card .Dolar{
+
+.food-menu-card .Dolar {
   margin-top: 100px;
   font-size: 40px;
 }
-.food-menu-card .Precio{
+
+.food-menu-card .Precio {
   text-align: center;
   margin-top: -35px;
   position: relative;
   color: rgb(17, 17, 180);
   font-size: 35px;
-  font-weight:400 ;
+  font-weight: 400;
 }
+
 .food-menu-card img {
   display: block;
   margin-bottom: 30px;
   margin-top: 120px;
 }
+
 .food-menu-card h3 {
   display: block;
   margin-bottom: 30px;
   font-weight: 900;
 }
-.food-menu-card .new2{
+
+.food-menu-card .new2 {
   display: none;
 }
 
@@ -954,21 +993,23 @@ margin-left: -10px;
 }
 
 .food-menu-card button {
-    color: white;
-    background-color: rgb(0, 0, 0);
-    font-size: 15px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 7px 20px;
-    cursor: pointer;
-    border-radius: 10px;
-    margin: 15px auto 0; 
-    z-index: 2;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 7px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 15px auto 0;
+  z-index: 2;
 
 
 }
+
 .mi-boton:hover {
   background-color: darkblue;
 }
+
 .food-menu-card h3:last-child {
   margin-bottom: -100px;
 }
@@ -1597,7 +1638,7 @@ textarea.input-field {
 }
 
 
-.food-menu-card .new9{
+.food-menu-card .new9 {
   display: none;
 }
 
@@ -1933,177 +1974,183 @@ textarea.input-field {
 
 @media only screen and (min-width: 1024px) {
   body {
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
   }
 
   .container {
-    max-width: 1200px; 
-    margin-inline: auto; 
+    max-width: 1200px;
+    margin-inline: auto;
   }
 
   .header {
-    position: fixed; 
-    padding-block: 20px; 
+    position: fixed;
+    padding-block: 20px;
     margin-top: -10%;
     width: 100%;
     height: 50%;
   }
 
   .logo {
-    font-size: 3.5rem; 
+    font-size: 3.5rem;
     margin-top: 55%;
     margin-left: -40%;
   }
+
   .logo1 {
-    font-size: 3.5rem; 
+    font-size: 3.5rem;
     margin-top: -70%;
     margin-left: 40px;
     width: 300px;
   }
+
   .nav-toggle-btn {
-    top: 20px; 
+    top: 20px;
   }
 
   .navbar {
-    top: 50px; 
-    height: auto; 
-    box-shadow: none; 
-    background-color: transparent; 
+    top: 50px;
+    height: auto;
+    box-shadow: none;
+    background-color: transparent;
     margin-left: 600px;
   }
 
   .navbar-list {
-    display: flex; 
-    gap: 30px; 
+    display: flex;
+    gap: 30px;
     margin-top: 150px;
     justify-content: flex-end;
   }
 
   .navbar-link {
-    font-size: 1.6rem; 
+    font-size: 1.6rem;
     margin-top: 10px;
   }
 
-/*-----------------------------------*\
+  /*-----------------------------------*\
   #List
 \*-----------------------------------*/
 
-.food-menu {
-  background-color: var(--isabelline);
-  text-align: center;
-  margin: -15px;
-}
-
-.food-menu .section-title {
-  margin-block: -10px 20px;
-}
-
-.food-menu .section-text {
-  max-width: 44ch;
-  margin-inline: auto;
-  margin-block-end: 30px;
-}
-
-.fiter-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-block-end: 40px;
-}
-
-.filter-btn {
-  background-color: var(--white);
-  color: var(--color, var(--rich-black-fogra-29));
-  font-family: var(--ff-rubik);
-  font-weight: var(--fw-500);
-  padding: 5px 20px;
-  border: 1px solid var(--border-color, var(--cultured));
-}
-
-.filter-btn.active {
-  background-color: var(--deep-saffron);
-  --color: var(--white);
-  --border-color: var(--deep-saffron);
-}
-
-.food-menu-list {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center; 
-  gap: 30px; 
-  list-style: none; 
-  padding: 0; 
-  margin: 0; 
-}
-
-.card-banner-titulo{
-  text-align: center;
- font-size: 200px;
-  margin-top:-250px;
-  margin-left: 170px;
-  margin-right: 200px;
-  width: 600px;
-}
-.card-banner-titulo .h2{
-  text-align: center;
-font-size: 200px;
-  margin-top:-250px;
-  margin-left: 170px;
-  margin-right: 200px;
-  width: 600px;
-}
-
-.food-menu-card {
-  flex: 20 30 200px; 
-  background-color: var(--white);
-  padding: -10px; 
-  text-align: center;
-  box-sizing: border-box;
-  margin-bottom: -50px; 
-}
-
-.card-banner .imgM{
-  margin-left: -500px;
-  width: 600px;
-}
-.food-menu-card .Modelo{
-  position: relative;
-  margin-left: 400px;
-  margin-right: -200px;
-  margin-top: -410px;
-  font-weight: 900;
-  font-size: 75px;
- }
-
- .food-menu-card .Modelo1{
-  position: relative;
-  margin-left: 400px;
-  margin-right: -200px;
-  margin-top: -450px;
-  font-weight: 900;
-  font-size: 75px;
- }
-
- .food-menu-card .Modelo5{
-  position: relative;
-  margin-left: 400px;
-  margin-right: -200px;
-  margin-top: -540px;
-  font-weight: 900;
-  font-size: 75px;
- }
-
-
-.food-menu-card .hero-btn{
-  background-color: rgb(0, 0, 0);
+  .food-menu {
+    background-color: var(--isabelline);
+    text-align: center;
+    margin: -15px;
   }
-  .food-menu-card .who{
+
+  .food-menu .section-title {
+    margin-block: -10px 20px;
+  }
+
+  .food-menu .section-text {
+    max-width: 44ch;
+    margin-inline: auto;
+    margin-block-end: 30px;
+  }
+
+  .fiter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-block-end: 40px;
+  }
+
+  .filter-btn {
+    background-color: var(--white);
+    color: var(--color, var(--rich-black-fogra-29));
+    font-family: var(--ff-rubik);
+    font-weight: var(--fw-500);
+    padding: 5px 20px;
+    border: 1px solid var(--border-color, var(--cultured));
+  }
+
+  .filter-btn.active {
+    background-color: var(--deep-saffron);
+    --color: var(--white);
+    --border-color: var(--deep-saffron);
+  }
+
+  .food-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card-banner-titulo {
+    text-align: center;
+    font-size: 200px;
+    margin-top: -250px;
+    margin-left: 170px;
+    margin-right: 200px;
+    width: 600px;
+  }
+
+  .card-banner-titulo .h2 {
+    text-align: center;
+    font-size: 200px;
+    margin-top: -250px;
+    margin-left: 170px;
+    margin-right: 200px;
+    width: 600px;
+  }
+
+  .food-menu-card {
+    flex: 20 30 200px;
+    background-color: var(--white);
+    padding: -10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: -50px;
+  }
+
+  .card-banner .imgM {
+    margin-left: -500px;
+    width: 600px;
+  }
+
+  .food-menu-card .Modelo {
+    position: relative;
+    margin-left: 400px;
+    margin-right: -200px;
+    margin-top: -410px;
+    font-weight: 900;
+    font-size: 75px;
+  }
+
+  .food-menu-card .Modelo1 {
+    position: relative;
+    margin-left: 400px;
+    margin-right: -200px;
+    margin-top: -450px;
+    font-weight: 900;
+    font-size: 75px;
+  }
+
+  .food-menu-card .Modelo5 {
+    position: relative;
+    margin-left: 400px;
+    margin-right: -200px;
+    margin-top: -540px;
+    font-weight: 900;
+    font-size: 75px;
+  }
+
+
+  .food-menu-card .hero-btn {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .food-menu-card .who {
     color: rgb(17, 17, 180);
     font-weight: 700;
     font-size: 35px;
   }
-  .food-menu-card .info20{
+
+  .food-menu-card .info20 {
     position: relative;
     text-align: center;
     margin-top: -1920px;
@@ -2113,7 +2160,8 @@ font-size: 200px;
 
     margin-left: 600px;
   }
-  .food-menu-card .infoPC{
+
+  .food-menu-card .infoPC {
     position: relative;
     text-align: center;
     margin-top: -1370px;
@@ -2124,7 +2172,7 @@ font-size: 200px;
     margin-left: 700px;
   }
 
-  .food-menu-card .info8{
+  .food-menu-card .info8 {
     color: black;
     position: relative;
     text-align: center;
@@ -2135,7 +2183,7 @@ font-size: 200px;
     margin-left: 700px;
   }
 
-  .food-menu-card .infoSX3{
+  .food-menu-card .infoSX3 {
     color: black;
     position: relative;
     text-align: center;
@@ -2147,7 +2195,7 @@ font-size: 200px;
     width: 500px;
   }
 
-  .food-menu-card .infoRKS{
+  .food-menu-card .infoRKS {
     color: black;
     position: relative;
     text-align: center;
@@ -2159,7 +2207,7 @@ font-size: 200px;
     width: 500px;
   }
 
-  .food-menu-card .infoIG{
+  .food-menu-card .infoIG {
     color: black;
     position: relative;
     text-align: center;
@@ -2171,7 +2219,7 @@ font-size: 200px;
   }
 
 
-  .food-menu-card .infoPC4{
+  .food-menu-card .infoPC4 {
     color: black;
     position: relative;
     text-align: center;
@@ -2181,7 +2229,8 @@ font-size: 200px;
     margin-right: 80px;
     margin-left: 700px;
   }
-  .food-menu-card .infoPC1{
+
+  .food-menu-card .infoPC1 {
     position: relative;
     text-align: center;
     margin-top: -1360px;
@@ -2190,106 +2239,111 @@ font-size: 200px;
     margin-right: 80px;
     margin-left: 700px;
   }
-  .food-menu-card .new{
+
+  .food-menu-card .new {
     display: block;
-    color:  rgb(17, 17, 180);
+    color: rgb(17, 17, 180);
     margin-top: -1750px;
     font-size: 55px;
     font-weight: 700;
   }
-  .food-menu-card .newC3{
+
+  .food-menu-card .newC3 {
     display: block;
-    color:  rgb(0, 97, 243);
+    color: rgb(0, 97, 243);
     margin-top: -2050px;
     font-size: 55px;
     font-weight: 700;
   }
 
 
-  .food-menu-card .Ws-Descarga{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25d382; 
-  color: white; 
-  border: none;
-  padding: 7px 20px;
-  font-size: 16px; 
-  margin-top: 20px;
-  z-index: 999;
-  cursor: pointer;
+  .food-menu-card .Ws-Descarga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d382;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    z-index: 999;
+    cursor: pointer;
     background-color: rgb(17, 17, 180);
   }
-  
-#c3{
-  margin-top: 10px;
-}
-  .food-menu-card .new7{ 
-   display: block;
-   position: relative;
-    color:  rgb(17, 17, 180);
+
+  #c3 {
+    margin-top: 10px;
+  }
+
+  .food-menu-card .new7 {
+    display: block;
+    position: relative;
+    color: rgb(17, 17, 180);
     margin-top: -1150px;
     font-size: 55px;
     font-weight: 700;
   }
 
-  .food-menu-card .new3{
+  .food-menu-card .new3 {
     display: block;
-    color:  rgb(17, 17, 180);
+    color: rgb(17, 17, 180);
     margin-top: -1450px;
     font-size: 55px;
     font-weight: 700;
   }
 
-  .food-menu-card .new2{
+  .food-menu-card .new2 {
     display: block;
-    color:  rgb(17, 17, 180);
+    color: rgb(17, 17, 180);
     margin-top: 150px;
     font-size: 55px;
     font-weight: 700;
   }
 
-.food-menu-card .Minfo{
-  display: none;
-}
-.food-menu-card .MinfPC{   
-  display: block;
-  margin-top: 120px;
-  width: 1100px; 
-  height: 1000px; 
-}
+  .food-menu-card .Minfo {
+    display: none;
+  }
 
-.food-menu-card .Eséf{
-color:rgb(17, 17, 180);
-margin-top: 150px;
-font-size: 50px;
-font-weight: 700;
-}
+  .food-menu-card .MinfPC {
+    display: block;
+    margin-top: 120px;
+    width: 1100px;
+    height: 1000px;
+  }
 
-.food-menu-card .Eséf1{
-  color:rgb(17, 17, 180);
-  margin-top: 150px;
-  font-size: 50px;
-  font-weight: 700;
+  .food-menu-card .Eséf {
+    color: rgb(17, 17, 180);
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .food-menu-card .Eséf1 {
+    color: rgb(17, 17, 180);
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 700;
   }
 
 
 
-.food-menu-card .new1{
-  display: block;
-  position: relative;
-  margin-top: -1050px;
+  .food-menu-card .new1 {
+    display: block;
+    position: relative;
+    margin-top: -1050px;
     font-size: 55px;
     font-weight: 700;
-    color:rgb(17, 17, 180);
-  
-}
+    color: rgb(17, 17, 180);
 
-  .food-menu-card .LogoM{
-margin-top: -650px;
-margin-left: 590px;
   }
-  .food-menu-card .info{
+
+  .food-menu-card .LogoM {
+    margin-top: -650px;
+    margin-left: 590px;
+  }
+
+  .food-menu-card .info {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2299,7 +2353,7 @@ margin-left: 590px;
   }
 
 
-  .food-menu-card .infoSX{
+  .food-menu-card .infoSX {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2308,7 +2362,7 @@ margin-left: 590px;
     margin-top: -1970px;
   }
 
-  .food-menu-card .infoSX1{
+  .food-menu-card .infoSX1 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2317,7 +2371,7 @@ margin-left: 590px;
     margin-top: -1945px;
   }
 
-  .food-menu-card .infoD{
+  .food-menu-card .infoD {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2326,7 +2380,7 @@ margin-left: 590px;
     margin-top: -2000px;
   }
 
-  .food-menu-card .info6{
+  .food-menu-card .info6 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2334,7 +2388,8 @@ margin-left: 590px;
     position: relative;
     margin-top: -1350px;
   }
-  .food-menu-card .infoKA150{
+
+  .food-menu-card .infoKA150 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2343,7 +2398,7 @@ margin-left: 590px;
     margin-top: -1970px;
   }
 
-  .food-menu-card .infoRK{
+  .food-menu-card .infoRK {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2352,7 +2407,7 @@ margin-left: 590px;
     margin-top: -1350px;
   }
 
-  .food-menu-card .infoCR4{
+  .food-menu-card .infoCR4 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2362,7 +2417,7 @@ margin-left: 590px;
   }
 
 
-  .food-menu-card .infoDM125{
+  .food-menu-card .infoDM125 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2371,7 +2426,7 @@ margin-left: 590px;
     margin-top: -1970px;
   }
 
-  .food-menu-card .infoGE150{
+  .food-menu-card .infoGE150 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2380,7 +2435,7 @@ margin-left: 590px;
     margin-top: -1410px;
   }
 
-  .food-menu-card .infoklik{
+  .food-menu-card .infoklik {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2390,7 +2445,7 @@ margin-left: 590px;
   }
 
 
-  .food-menu-card .inf2{
+  .food-menu-card .inf2 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2399,7 +2454,7 @@ margin-left: 590px;
     margin-top: -1930px;
   }
 
-  .food-menu-card .info11{
+  .food-menu-card .info11 {
     margin-left: 600px;
     margin-right: 20px;
     font-size: 15px;
@@ -2408,67 +2463,67 @@ margin-left: 590px;
     margin-top: -2400px;
   }
 
-  .food-menu-card .Ws-button{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
-  border: none;
-  padding: 7px 50px;
-  font-size: 16px; 
-  cursor: pointer;
-    background-color:  rgb(4, 207, 4);
+  .food-menu-card .Ws-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 7px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(4, 207, 4);
     margin-top: 110px;
     margin-left: 630px;
     z-index: 2;
     position: relative;
   }
 
-  .food-menu-card .Ws-buttonRKS{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
-  border: none;
-  padding: 7px 50px;
-  font-size: 16px; 
-  cursor: pointer;
-    background-color:  rgb(4, 207, 4);
+  .food-menu-card .Ws-buttonRKS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 7px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(4, 207, 4);
     margin-top: 160px;
     margin-left: 630px;
     z-index: 2;
     position: relative;
   }
-  
-  .food-menu-card .Ws-buttonKA{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
-  border: none;
-  padding: 7px 50px;
-  font-size: 16px; 
-  cursor: pointer;
-    background-color:  rgb(4, 207, 4);
+
+  .food-menu-card .Ws-buttonKA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 7px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(4, 207, 4);
     margin-top: 140px;
     margin-left: 630px;
     z-index: 2;
     position: relative;
   }
 
-  .food-menu-card .Ws-button1{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
-  border: none;
-  padding: 7px 50px;
-  font-size: 16px; 
-  cursor: pointer;
+  .food-menu-card .Ws-button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 7px 50px;
+    font-size: 16px;
+    cursor: pointer;
     background-color: rgb(4, 207, 4);
     margin-top: 200px;
     margin-left: 630px;
@@ -2476,16 +2531,16 @@ margin-left: 590px;
     position: relative;
   }
 
-  .food-menu-card .Ws-button8{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
-  border: none;
-  padding: 7px 50px;
-  font-size: 16px; 
-  cursor: pointer;
+  .food-menu-card .Ws-button8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 7px 50px;
+    font-size: 16px;
+    cursor: pointer;
     background-color: rgb(4, 207, 4);
     margin-top: 180px;
     margin-left: 630px;
@@ -2493,16 +2548,16 @@ margin-left: 590px;
     position: relative;
   }
 
-  .food-menu-card .Ws-button10{
-    display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #25D366; 
-  color: white; 
-  border: none;
-  padding: 7px 50px;
-  font-size: 16px; 
-  cursor: pointer;
+  .food-menu-card .Ws-button10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 7px 50px;
+    font-size: 16px;
+    cursor: pointer;
     background-color: rgb(4, 207, 4);
     margin-top: 300px;
     margin-left: 630px;
@@ -2511,94 +2566,99 @@ margin-left: 590px;
   }
 
 
-  .food-menu-card .ModeloX{
+  .food-menu-card .ModeloX {
     margin-top: 50px;
     font-weight: 900;
     font-size: 30px;
     margin-bottom: 0;
     color: rgb(17, 17, 180);
-      
-    }
 
-    .food-menu-card .Modelo5{
-      margin-top: -450px;
-      font-weight: 900;
-      font-size: 50px;
-      margin-bottom: 0;
-      color: rgb(17, 17, 180);  
-      }
-
-.food-menu-card h2{
-  margin-top: 200px;
-  font-weight: 900;
-  font-size: 50px;
-  margin-bottom: 0;
-  color: rgb(17, 17, 180);
-    
   }
-  
+
+  .food-menu-card .Modelo5 {
+    margin-top: -450px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: rgb(17, 17, 180);
+  }
+
+  .food-menu-card h2 {
+    margin-top: 200px;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: rgb(17, 17, 180);
+
+  }
 
 
 
-.food-menu-card .card-banner {
-  position: relative;
-  padding-block-start: 30px;
-  max-width: max-content;
-  aspect-ratio: 1 / 1;
-  margin-inline: auto;
-  margin-top: -135px;
-}
 
-.food-menu-card .Desde{
-  margin-top: -10px;
-  margin-left: 390px;
-  position: relative;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-weight:800 ;
-}
-.food-menu-card .cDesde{
-  margin-top: -80px;
-  margin-left: 750px;
-  position: relative;
-  color: rgb(0, 0, 0);
-  font-size: 17px;
-  font-weight:800 ;
-}
-.food-menu-card .Dolar{
-  margin-top: 100px;
-  font-size: 40px;
-  margin-left: 750px;
-}
-.food-menu-card .Precio{
-  text-align: center;
-  margin-top: -35px;
-  position: relative;
-  color: rgb(17, 17, 180);
-  font-size: 35px;
-  font-weight:400 ;
-  margin-left: 350px;
-}
-.food-menu-card img {
-  display: block;
-  margin-bottom: 30px;
-  margin-top: 120px;
-}
-.food-menu-card h3 {
-  display: block;
-  margin-bottom: 30px;
-  font-weight: 900;
-}
+  .food-menu-card .card-banner {
+    position: relative;
+    padding-block-start: 30px;
+    max-width: max-content;
+    aspect-ratio: 1 / 1;
+    margin-inline: auto;
+    margin-top: -135px;
+  }
 
-.food-menu-card p {
-  color: black;
-  font-size: 15px;
-  text-align: center;
-  margin-top: -65px;
-  font-weight: lighter;
-}
+  .food-menu-card .Desde {
+    margin-top: -10px;
+    margin-left: 390px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 800;
+  }
 
-.food-menu-card button {
+  .food-menu-card .cDesde {
+    margin-top: -80px;
+    margin-left: 750px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .food-menu-card .Dolar {
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 750px;
+  }
+
+  .food-menu-card .Precio {
+    text-align: center;
+    margin-top: -35px;
+    position: relative;
+    color: rgb(17, 17, 180);
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 350px;
+  }
+
+  .food-menu-card img {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 120px;
+  }
+
+  .food-menu-card h3 {
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+
+  .food-menu-card p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -65px;
+    font-weight: lighter;
+  }
+
+  .food-menu-card button {
     color: white;
     background-color: rgb(0, 0, 0);
     font-size: 15px;
@@ -2606,105 +2666,111 @@ margin-left: 590px;
     padding: 7px 20px;
     cursor: pointer;
     border-radius: 10px;
-    margin: 15px auto 0; 
+    margin: 15px auto 0;
     z-index: 2;
 
 
-}
-.mi-boton:hover {
-  background-color: darkblue;
-}
-.food-menu-card h3:last-child {
-  margin-bottom: -100px;
-}
+  }
 
-.food-menu-card h3 {
-  font-weight: bold;
-}
+  .mi-boton:hover {
+    background-color: darkblue;
+  }
 
-.food-menu-card .badge {
-  top: 0;
-  left: 0;
-}
+  .food-menu-card h3:last-child {
+    margin-bottom: -100px;
+  }
 
-.food-menu-btn {
-  position: absolute;
-  top: calc(50% + 15px);
-  left: 50%;
-  transform: translate(-50%, 0);
-  min-width: max-content;
-  --bg-color: var(--cinnabar);
-  width: 60%;
-  --height: 40px;
-  --padding-inline: 20px;
-  opacity: 0;
-  transition: var(--transition-2);
-}
+  .food-menu-card h3 {
+    font-weight: bold;
+  }
 
-.food-menu-btn:is(:hover, :focus) {
-  --bg-color: var(--deep-saffron);
-}
+  .food-menu-card .badge {
+    top: 0;
+    left: 0;
+  }
 
-.food-menu-card:is(:hover, :focus-within) .food-menu-btn {
-  transform: translate(-50%, -50%);
-  opacity: 1;
-}
+  .food-menu-btn {
+    position: absolute;
+    top: calc(50% + 15px);
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: max-content;
+    --bg-color: var(--cinnabar);
+    width: 60%;
+    --height: 40px;
+    --padding-inline: 20px;
+    opacity: 0;
+    transition: var(--transition-2);
+  }
 
-.food-menu-card .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-block: 20px 10px;
-}
+  .food-menu-btn:is(:hover, :focus) {
+    --bg-color: var(--deep-saffron);
+  }
 
-.food-menu-card .category {
-  font-family: var(--ff-rubik);
-}
+  .food-menu-card:is(:hover, :focus-within) .food-menu-btn {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
 
-.food-menu-card .rating-wrapper {
-  font-size: 1.4rem;
-}
+  .food-menu-card .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-block: 20px 10px;
+  }
 
-.food-menu-card .card-title {
-  margin-block-end: 10px;
-  font-weight: 700;
-  font-size: 40px;
-  color: black;
-}
+  .food-menu-card .category {
+    font-family: var(--ff-rubik);
+  }
 
-.food-menu-card .price-wrapper {
-  justify-content: center;
-  gap: 5px;
-  font-family: var(--ff-rubik);
-  font-size: 23px;
-  letter-spacing: -1px;
-  font-weight: 700;
-  margin-top: 150px;
-}
+  .food-menu-card .rating-wrapper {
+    font-size: 1.4rem;
+  }
 
-.food-menu-card .price-text {
-  color: var(--cinnabar);
-  text-transform: uppercase;
-  padding-inline-end: 5px;
-}
+  .food-menu-card .card-title {
+    margin-block-end: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+  }
 
-.food-menu-card .price {
-  color: var(--deep-saffron);
-}
+  .food-menu-card .price-wrapper {
+    justify-content: center;
+    gap: 5px;
+    font-family: var(--ff-rubik);
+    font-size: 23px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin-top: 150px;
+  }
 
-.food-menu-card .del {
-  color: var(--gray-x-11-gray);
-}
+  .food-menu-card .price-text {
+    color: var(--cinnabar);
+    text-transform: uppercase;
+    padding-inline-end: 5px;
+  }
+
+  .food-menu-card .price {
+    color: var(--deep-saffron);
+  }
+
+  .food-menu-card .del {
+    color: var(--gray-x-11-gray);
+  }
 
 
   .blog-list {
-    grid-template-columns: repeat(3, 1fr); /* Distribuye las tarjetas de blog en 3 columnas */
-    gap: 40px; /* Aumenta el espacio entre las tarjetas de blog */
-    margin-block-end: 60px; /* Aumenta el espacio entre las tarjetas de blog y el siguiente elemento */
+    grid-template-columns: repeat(3, 1fr);
+    /* Distribuye las tarjetas de blog en 3 columnas */
+    gap: 40px;
+    /* Aumenta el espacio entre las tarjetas de blog */
+    margin-block-end: 60px;
+    /* Aumenta el espacio entre las tarjetas de blog y el siguiente elemento */
   }
 
   .blog-card {
-    width: calc(33.33% - 40px); /* Distribuye las tarjetas de blog en 3 columnas */
+    width: calc(33.33% - 40px);
+    /* Distribuye las tarjetas de blog en 3 columnas */
   }
 }
