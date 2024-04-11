@@ -792,6 +792,7 @@ margin-left: -10px;
   padding: 7px 20px;
   font-size: 16px; 
   z-index: 2;
+  position: relative;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
   }
@@ -806,6 +807,7 @@ margin-left: -10px;
   padding: 7px 20px;
   font-size: 16px; 
   z-index: 2;
+  position: relative;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
   }
@@ -822,6 +824,7 @@ margin-left: -10px;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
     z-index: 2;
+    position: relative;
   }
 
   .food-menu-card .Ws-button10{
@@ -834,6 +837,7 @@ margin-left: -10px;
   padding: 7px 20px;
   font-size: 16px; 
   z-index: 2;
+  position: relative;
   cursor: pointer;
     background-color: rgb(4, 207, 4);
   }
@@ -846,6 +850,7 @@ margin-left: -10px;
   border: none;
   padding: 7px 20px;
   z-index: 2;
+  position: relative;
   font-size: 16px; 
   cursor: pointer;
     background-color: rgb(4, 207, 4);
@@ -957,6 +962,7 @@ margin-left: -10px;
     cursor: pointer;
     border-radius: 10px;
     margin: 15px auto 0; 
+    z-index: 2;
 
 
 }
@@ -2416,6 +2422,7 @@ margin-left: 590px;
     margin-top: 110px;
     margin-left: 630px;
     z-index: 2;
+    position: relative;
   }
 
   .food-menu-card .Ws-buttonRKS{
@@ -2432,6 +2439,7 @@ margin-left: 590px;
     margin-top: 160px;
     margin-left: 630px;
     z-index: 2;
+    position: relative;
   }
   
   .food-menu-card .Ws-buttonKA{
@@ -2448,6 +2456,7 @@ margin-left: 590px;
     margin-top: 140px;
     margin-left: 630px;
     z-index: 2;
+    position: relative;
   }
 
   .food-menu-card .Ws-button1{
@@ -2464,6 +2473,7 @@ margin-left: 590px;
     margin-top: 200px;
     margin-left: 630px;
     z-index: 2;
+    position: relative;
   }
 
   .food-menu-card .Ws-button8{
@@ -2480,6 +2490,7 @@ margin-left: 590px;
     margin-top: 180px;
     margin-left: 630px;
     z-index: 2;
+    position: relative;
   }
 
   .food-menu-card .Ws-button10{
@@ -2496,6 +2507,7 @@ margin-left: 590px;
     margin-top: 300px;
     margin-left: 630px;
     z-index: 2;
+    position: relative;
   }
 
 
