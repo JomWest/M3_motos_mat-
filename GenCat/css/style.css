@@ -621,9 +621,44 @@ position: relative;
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-top: 2px;
 
 
 }
+.food-menu-card .imgsx{
+  text-align: center;
+  margin-left: 100px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  
+  
+  }
+.food-menu-card .IMGS2O{
+  text-align: center;
+  margin-left: 100px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2PX;
+  
+  
+  }
+  .food-menu-card .sx1-150{
+    text-align: center;
+    margin-left: 100px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+  }
+    
+    
+
 .food-menu-card .hero-btn{
   background-color: rgb(0, 0, 0);
   }
@@ -731,11 +766,11 @@ margin-left: -10px;
 .food-menu-card img {
   display: block;
   margin-bottom: 30px;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 .food-menu-card h3 {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: 900;
 }
 
@@ -1655,32 +1690,32 @@ textarea.input-field {
 
   .logo {
     font-size: 3.5rem; 
-    margin-top: 55%;
-    margin-left: -40%;
+    margin-top: 30%;
+    margin-left: -15%;
   }
   .logo1 {
     font-size: 3.5rem; 
-    margin-top: -70%;
-    margin-left: 40px;
+    margin-top: -55%;
+    margin-left: 120px;
     width: 300px;
   }
   .nav-toggle-btn {
-    top: 20px; 
+    top: 50px; 
   }
 
   .navbar {
-    top: 50px; 
+    top: 90px; 
     height: auto; 
     box-shadow: none; 
     background-color: transparent; 
-    margin-left: 600px;
+    margin-left: 500px;
   }
 
 
   .navbar-list {
     display: flex; 
     gap: 30px; 
-    margin-top: 150px;
+    margin-top: 90px;
     justify-content: flex-end;
   }
 
@@ -1691,7 +1726,29 @@ textarea.input-field {
 .food-menu-card .imgsx{
 margin-left: 20px;
 width: 300px;
+margin-top: 70px;
 }
+.food-menu-card .sx1-150{
+  margin-left: 20px;
+  width: 300px;
+  margin-top: 70px;
+  }
+  .food-menu-card .IMGS2{
+    margin-left: 20px;
+    width: 260px;
+    margin-top: 70px;
+    padding: 20px;
+
+    }
+    .food-menu-card .IMGS2O{
+      margin-left: 20px;
+      width: 260px;
+      margin-top: 70px;
+      padding: 20px;
+  
+      }
+    
+  
 
 #NotonSX2{
   margin-top: 30px;
@@ -1702,7 +1759,11 @@ width: 300px;
 }
 
 #klik{
-  margin-top: 125px;
+  margin-top: 70px;
+  width: 300px;
+}
+#CR4{
+  margin-top: 70px;
   width: 300px;
 }
 
@@ -1992,8 +2053,8 @@ margin-left: -10px;
 }
 .food-menu-card img {
   display: block;
-  margin-bottom: 30px;
-  margin-top: 120px;
+  margin-bottom:200px;
+  margin-top: 55px;
 }
 .food-menu-card h3 {
   display: block;

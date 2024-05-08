@@ -679,10 +679,10 @@ background-color: red;
   margin-top: -110px;
   }
   .food-menu-card .phero{
-    margin-top: -160px;
+    margin-top: -95px;
     }
   .food-menu-card .img-hero{
-    margin-top: -75px;
+    margin-top: -25px;
     }
 .food-menu-card h2{
   margin-top: 160px;
@@ -1470,14 +1470,15 @@ font-size: 200px;
 
 
 #Genesis{
-  margin-left: -10px;
-  margin-top: -70px;
-  width: 600px;
+  position: relative;
+  margin-left: 60px;
+  margin-top: 150px;
+  width: 500px;
 }
 
 .food-menu-card .pymaha{
   position: absolute;
-  margin-top: -65px;
+  margin-top: -15px;
   margin-left: 180px;
 }
 
@@ -1493,17 +1494,13 @@ font-size: 200px;
 
 .food-menu-card .yamaha-btn{
   position: absolute;
-  margin-top: 25px;
+  margin-top: 75px;
   margin-left: 230px;
 }
 .food-menu-card .btn-genesis{
   background-color: rgb(17, 17, 180);;
 }
-.food-menu-card .yamaha-btn{
-  position: absolute;
-  margin-top: 25px;
-  margin-left: 230px;
-}
+
 
 
 #whois{
@@ -1517,19 +1514,19 @@ font-size: 200px;
 }
 
 #Ymaha{
-  margin-top: -640px;
+  margin-top: -610px;
   margin-left: 450px;
   width: 600px;
 }
 
 #Hero{
-  margin-top: -470px;
+  margin-top: -390px;
   margin-left: 900px;
   width: 600px;
 }
 
 .food-menu-card .YamahaMopto{
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .food-menu-card .motoGen{

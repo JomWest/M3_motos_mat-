@@ -766,7 +766,7 @@ margin-left: -10px;
 .food-menu-card img {
   display: block;
   margin-bottom: 30px;
-  margin-top: 120px;
+  margin-top: 10px;
 }
 .food-menu-card h3 {
   display: block;
@@ -1775,25 +1775,25 @@ textarea.input-field {
 
   .logo {
     font-size: 3.5rem; 
-    margin-top: 55%;
-    margin-left: -40%;
+    margin-top: 30%;
+    margin-left: -15%;
   }
   .logo1 {
     font-size: 3.5rem; 
-    margin-top: -70%;
-    margin-left: 40px;
+    margin-top: -55%;
+    margin-left: 120px;
     width: 300px;
   }
   .nav-toggle-btn {
-    top: 20px; 
+    top: -30px; 
   }
 
   .navbar {
-    top: 50px; 
+    top: 60px; 
     height: auto; 
     box-shadow: none; 
     background-color: transparent; 
-    margin-left: 600px;
+    margin-left: 500px;
   }
 
 
@@ -1805,7 +1805,7 @@ textarea.input-field {
   }
 
   .nav-toggle-btn {
-    top: 20px; 
+    top: 90px; 
   }
   .navbar-link {
     font-size: 1.6rem; 
@@ -1819,26 +1819,39 @@ textarea.input-field {
 }
 
  .food-menu-card  .fz150{
-width: 310px;
-margin-top: 155px;
+  position: relative;
+width: 250px;
+height: 200px;
+margin-top: 80px;
+
+}
+.food-menu-card  .IMGS2{
+  position: relative;
+width: 250px;
+height: 200px;
+margin-top: 80px;
 
 }
 
 .food-menu-card  .Fz2501{
-  width: 313px;
-  margin-top: 150px;
+  position: relative;
+width: 250px;
+height: 200px;
+margin-top: 80px;
   
   }
 
 .food-menu-card  .grizz{
   width: 300px;
-  margin-top: 170px;
+  margin-top: 70px;
   
   }
   
   .food-menu-card  .MT03{
-    width: 300px;
-    margin-top: 160px;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-top: 80px;
     
     }
 /*-----------------------------------*\
@@ -2040,13 +2053,18 @@ margin-left: -10px;
 .food-menu-card img {
   display: block;
   margin-bottom: 30px;
-  margin-top: 120px;
+  margin-top: 10px;
 }
 .food-menu-card h3 {
   display: block;
   margin-bottom: 30px;
   font-weight: 900;
 }
+.food-menu-card .imgsx{
+  margin-left: 40px;
+  width: 300px;
+  margin-top: 70px;
+  }
 
 .food-menu-card p {
   color: black;
