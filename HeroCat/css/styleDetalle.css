@@ -794,7 +794,7 @@ margin-left: -10px;
   .food-menu-card .Ws-button8{
     display: flex; 
   align-items: center; 
-  position: relative;
+  position: absolute;
   justify-content: center; 
   background-color: #25D366; 
   color: white; 
@@ -822,6 +822,7 @@ margin-left: -10px;
   font-size: 30px;
   margin-bottom: 0;
   color: rgb(0, 0, 0);
+  margin-left: -10px;
     
   }
   
@@ -886,6 +887,7 @@ margin-left: -10px;
   display: block;
   margin-bottom: 30px;
   margin-top: 120px;
+
 }
 .food-menu-card h3 {
   display: block;
